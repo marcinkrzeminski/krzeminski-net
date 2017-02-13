@@ -1,0 +1,10 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.c-site-footer {
+  padding: rem-calc(30);
+  font-size: rem-calc(14);
+  text-align: center;
+  border-top: $border-width solid $light-grey;
+}

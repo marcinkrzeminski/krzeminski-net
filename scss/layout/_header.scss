@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.c-site-header {
+  position: relative;
+  margin-top: rem-calc(10);
+  margin-bottom: rem-calc(30);
+
+  @include respond-to(large) {
+    height: $header-height;
+  }
+
+  &:after {
+    position: absolute;
+    z-index: 0;
+    content: '';
+    bottom: rem-calc(20);
+    height: $border-width;
+    width: 100%;
+    display: block;
+    background-color: $link-color;
+
+    @include respond-to(large) {
+      bottom: rem-calc(5);
+    }
+
+  }
+
+}

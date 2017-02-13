@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-01-08 12:18+0000\n"
+"PO-Revision-Date: 2017-01-28 10:00+0000\n"
+"Last-Translator: Marcin Krzemiński <marcin@krzeminski.net>\n"
+"Language-Team: Polish\n"
+"Language: pl-PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: pl_PL"
+
+msgid "Other courses"
+msgstr "Sprawdź inne kursy"
+
+# @ _s
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Przykro nam ta strona nie może zostać znaleziona"
+
+# @ _s
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Wygląda na to, że nic tutaj nie znaleziono. Sprawdź linki poniżej albo użyj "
+"wyszukiwania."
+
+# @ _s
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr "Najczęściej używane kategorie"
+
+# @ _s
+#. translators: %1$s: smiley
+#: 404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Spróbuj szukać w archiwach miesięcznych. %1$s"
+
+# @ _s
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentarz do wpisu &ldquo;%2$s&rdquo;"
+msgstr[1] "Komentarze (%1$s) do wpisu &ldquo;%2$s&rdquo;"
+msgstr[2] "Komentarze (%1$s) do wpisu &ldquo;%2$s&rdquo;"
+
+# @ _s
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr "Nawigacja komentarzy"
+
+# @ _s
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr "&larr; Starsze komentarze"
+
+# @ _s
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr "Nowsze komentarze &rarr;"
+
+# @ _s
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Komentarze są wyłączone."
+
+# @ _s
+#: footer.php:18
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+# @ _s
+#: footer.php:18
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "&#10084; %s"
+
+# @ _s
+#: footer.php:20
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr "Motyw: %1$s od %2$s."
+
+# @ _s
+#: functions.php:47
+msgid "Primary"
+msgstr "Primary"
+
+# @ _s
+#: functions.php:102
+msgid "Sidebar"
+msgstr "Sidebar"
+
+# @ _s
+#: header.php:25
+msgid "Skip to content"
+msgstr "Skocz do zawartości"
+
+# @ _s
+#: header.php:45
+msgid "Primary Menu"
+msgstr "Główne menu"
+
+# @ _s
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "%s"
+
+# @ _s
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "przez %s"
+
+# @ _s
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ", "
+
+# @ _s
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Kategorie: %1$s"
+
+# @ _s
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Tagi: %1$s"
+
+# @ _s
+#: inc/template-tags.php:65
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Skomentuj jako pierwszy<span class=\"screen-reader-text\"> ten wpis: "
+"%s</span>"
+
+# @ _s
+#: inc/template-tags.php:65
+msgid "1 Comment"
+msgstr "1 Komentarz"
+
+# @ _s
+#: inc/template-tags.php:65
+msgid "% Comments"
+msgstr "% Komentarzy"
+
+# @ _s
+#. translators: %s: Name of current post
+#: inc/template-tags.php:71 template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr "Edycja %s"
+
+# @ _s
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Wyniki wyszukiwania dla frazy: %s"
+
+# @ _s
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nic nie znaleziono"
+
+# @ _s
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Gotowy aby napisać swój pierwszy wpis? <a href=\"%1$s\">Zacznij tutaj</a>."
+
+# @ _s
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Przykro mi, ale niestety nic nie znaleziono"
+
+# @ _s
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Wygląda na to, że nie możemy znaleźć to czego szukasz. Możliwe, że "
+"skorzystanie z wyszukiwarki pomoże."
+
+# @ _s
+#: template-parts/content-page.php:22 template-parts/content.php:38
+msgid "Pages:"
+msgstr "Strony:"
+
+# @ _s
+#. translators: %s: Name of current post.
+#: template-parts/content.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Czytaj dalej  %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. Theme Name of the plugin/theme
+msgid "_s"
+msgstr "Dumnie wspierany przez %s"
+
+# @ _s
+#. Theme URI of the plugin/theme
+msgid "http://underscores.me/"
+msgstr "http://underscores.me/"
+
+# @ _s
+#. Description of the plugin/theme
+msgid ""
+"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
+"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
+msgstr ""
+"Część. Jestem startowym motywem o nazwie <code>_s</code>, lub <em>"
+"underscores</em>, jak kto woli. Jestem motywem przezanczonym do modyfikacji "
+"więc nie używaj mnie jako <em>motyw nadrzędny (parent theme)</em>. Zamiast "
+"tego postaraj się stworzyć kolejny super motyw. Po to tutaj jestem."
+
+# @ _s
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+# @ _s
+#. Author URI of the plugin/theme
+msgid "http://automattic.com/"
+msgstr "http://automattic.com/"
+
+msgid "Table of contents"
+msgstr "Spis treści"
+
+msgid "Length"
+msgstr "Długość"
+
+msgid "Watch video"
+msgstr "Zobacz wideo"

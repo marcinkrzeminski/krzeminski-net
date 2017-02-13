@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains all base media styling
+// -----------------------------------------------------------------------------
+
+img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}

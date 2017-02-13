@@ -1,0 +1,91 @@
+.c-portfolio {
+  @include cf();
+}
+
+.c-portfolio__item {
+  @include col(1);
+  position: relative;
+  margin-bottom: rem-calc(20);
+  overflow: hidden;
+  border: ($border-width * 2) solid #fff;
+  box-shadow: $box-shadow;
+  transition: $base-transition;
+  border-radius: $border-radius;
+  background: #fff;
+
+  @include respond-to(medium) {
+    @include col(1/2, $cycle: 2);
+  }
+
+  @include respond-to(large) {
+    @include col(1/3, $cycle: 3);
+  }
+
+  &:hover {
+    box-shadow: $box-shadow-hover;
+  }
+
+}
+
+.c-portfolio__item--full {
+  width: 100%;
+}
+
+.c-portfolio__thumb-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: rem-calc(0 10);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.c-portfolio__thumb {
+  vertical-align: middle;
+}
+
+.c-portfolio__details {
+  @include cf();
+}
+
+.c-portfolio__description {
+
+  @include respond-to(medium) {
+    @include col(0.5);
+  }
+
+  @include respond-to(large) {
+    @include col(0.4);
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+}
+
+.c-portfolio__gallery {
+  @include respond-to(medium) {
+    @include col(0.5);
+  }
+
+  @include respond-to(large) {
+    @include col(0.6);
+  }
+
+}
+
+.c-portfolio__back {
+  padding: rem-calc(5 10);
+  margin-top: rem-calc(6);
+  float: right;
+  color: #fff;
+  font-size: rem-calc(16);
+  background-color: $link-color;
+
+  &:hover {
+    color: #fff;
+    background-color: $base-color;
+  }
+
+}

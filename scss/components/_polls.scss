@@ -1,0 +1,13 @@
+// Overriding WP-Polls styles
+
+.wp-polls-ul {
+  margin: 0;
+}
+
+.wp-polls {
+
+  input[type="button"] {
+    @include btn;
+  }
+
+}

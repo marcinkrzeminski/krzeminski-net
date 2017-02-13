@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the courses component.
+// -----------------------------------------------------------------------------
+
+.c-courses__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.c-courses__item {
+  @include cf;
+  margin-bottom: rem-calc(20);
+  padding-bottom: rem-calc(20);
+  border-bottom: 1px solid $base-color;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+.c-courses__item-title {
+  float: left;
+  max-width: 80%;
+  font-family: $heading-font-stack;
+  font-size: rem-calc(20);
+}
+
+.c-courses__label {
+  font-size: rem-calc(14);
+  color: lighten($base-color, 50%);
+}

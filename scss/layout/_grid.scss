@@ -1,0 +1,15 @@
+.wrapper {
+  @include center($jeet-max-width, rem-calc(20));
+}
+
+@include respond-to(large) {
+
+  .content-area {
+    @include col(.7);
+  }
+
+  .widget-area {
+    @include col(.3);
+  }
+
+}

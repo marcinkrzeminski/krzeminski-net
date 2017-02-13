@@ -1,0 +1,38 @@
+.c-social {
+  text-align: center;
+
+  @include respond-to(large) {
+    margin-top: rem-calc(6);
+    margin-left:rem-calc(12);
+    text-align: left;
+  }
+
+}
+
+.c-social__link {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: rem-calc(34);
+  height: rem-calc(34);
+  //color: $base-color;
+  border-radius: 50%;
+  border: $border-width solid $link-color;
+  background-color: #fff;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    color: #fff;
+    background-color: $link-color;
+  }
+
+}
+
+.c-social__icon {
+  display: block;
+  width: rem-calc(18);
+  height: rem-calc(18);
+  margin: rem-calc(5);
+  fill: currentColor;
+}

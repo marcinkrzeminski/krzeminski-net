@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.c-button {
+  @include btn;
+}
+
+.c-button--small {
+  font-size: rem-calc(16);
+}
