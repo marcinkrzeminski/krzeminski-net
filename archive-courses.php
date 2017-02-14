@@ -12,7 +12,8 @@ get_header();
 // custom query - get only top level elements
 $args = array(
     'post_type' => 'courses',
-    'post_parent' => 0
+    'post_parent' => 0,
+    'posts_per_page' => -1
 );
 $query = new WP_Query($args)
 ?>
@@ -35,8 +36,6 @@ $query = new WP_Query($args)
                     get_template_part( 'template-parts/content', get_post_format() );
 
                 endwhile;
-
-                the_posts_navigation();
 
             else :
 
