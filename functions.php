@@ -122,18 +122,6 @@ add_filter( 'jpeg_quality', create_function( '', 'return 100;' ) );
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 
-add_filter( 'wpseo_replacements', 'custom_filter_seo_replacements' );
-function custom_filter_seo_replacements( $replacements ){
-
-    global $post;
-
-    if ( isset( $replacements['%%sitename%%'] ) && $post->post_type === 'courses' ) {
-        $replacements['%%sitename%%'] = get_the_title( $post->post_parent );
-    }
-
-    return $replacements;
-}
-
 /**
  * Implement the Custom Header feature.
  */
