@@ -11,11 +11,17 @@ get_header();
 
 // custom query - get only top level elements
 $args = array(
-    'post_type' => 'courses',
     'post_parent' => 0,
+    'post_type' => 'courses',
     'posts_per_page' => -1
 );
-$query = new WP_Query($args)
+$query = new WP_Query($args);
+$page = get_query_var('paged');
+if ($page > 0) {
+    $post_type = get_queried_object();
+    $slug = '/' . $post_type->rewrite['slug'];
+    wp_redirect($slug, 301);
+}
 ?>
 
     <div id="primary" class="content-area">
@@ -41,7 +47,9 @@ $query = new WP_Query($args)
 
                 get_template_part( 'template-parts/content', 'none' );
 
-            endif; ?>
+            endif;
+
+            ?>
 
         </main><!-- #main -->
     </div><!-- #primary -->
