@@ -123,6 +123,37 @@ remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 
 /**
+ * Add the AMP analytics script to head of AMP pages
+ */
+function isa_amp_scripts( $data ) {
+    $data['amp_component_scripts']['amp-analytics'] = 'https://cdn.ampproject.org/v0/amp-analytics-0.1.js';
+    return $data;
+}
+add_filter( 'amp_post_template_data', 'isa_amp_scripts' );
+
+/**
+ * Add amp-analytics to the amp post template footer
+ */
+function isa_amp_analytics( $amp_template ) {
+    ?><amp-analytics type="googleanalytics">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-21641725-18"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+    </amp-analytics><?php
+}
+add_action( 'amp_post_template_footer', 'isa_amp_analytics' );
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
