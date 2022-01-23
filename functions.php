@@ -45,6 +45,7 @@ function krzeminski_net_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'krzeminski-net' ),
+		'footer' => esc_html__( 'Footer', 'krzeminski-net' ),
 	) );
 
 	/*

@@ -17,7 +17,11 @@
   <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'krzeminski-net' ) ); ?>">
     <?php printf( esc_html__( 'Proudly powered by %s', 'krzeminski-net' ), 'WordPress' ); ?>
   </a>
-  & <a href="http://underscores.me/" rel="designer">Underscores.me</a>
+  & <a href="http://underscores.me/" rel="designer">Underscores.me</a>. <?php esc_html_e('&copy; Wszelkie prawa zastrzeżone', 'krzeminski-net'); ?>
+	<?php wp_nav_menu( array(
+		'theme_location' => 'footer',
+		'menu_class'     => 'c-footer-nav'
+	) ); ?>
 </footer>
 
 </div>
